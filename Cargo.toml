@@ -1,0 +1,11 @@
+[package]
+name = "ch32v003-template"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+panic-halt = "0.2"
+
+ch32v-rt = "*" # use same version as hal
+ch32v00x-hal = { git = "https://github.com/ch32-rs/ch32v00x-hal" }
