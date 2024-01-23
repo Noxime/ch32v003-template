@@ -1,3 +1,7 @@
 {
-    "rust-analyzer.procMacro.server": "T:/rust/build/host/stage1-tools-bin/rust-analyzer-proc-macro-srv"
+    "rust-analyzer.procMacro.server": "T:/rust/build/host/stage1-tools-bin/rust-analyzer-proc-macro-srv",
+    "rust-analyzer.check.allTargets": false,
+    "rust-analyzer.runnables.extraArgs": [
+        "--target riscv32ec-unknown-none-elf"
+    ],
 }
